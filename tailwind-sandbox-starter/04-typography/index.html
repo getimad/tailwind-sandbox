@@ -4,27 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            kode: ["Kode Mono"],
+          },
+        },
+      };
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <p class="font-kode">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, quia.
+    </p>
 
     <!-- Font Size -->
+    <p class="text-xl">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, explicabo.
+    </p>
 
     <!-- Font Weight -->
+    <p class="font-bold">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, odio!
+    </p>
 
     <!-- Letter Spacing -->
+    <p class="tracking-tight">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum.
+    </p>
+    <p class="tracking-wide">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum.
+    </p>
 
     <!-- Text Alignment -->
+    <p class="text-center">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+      assumenda.
+    </p>
+    <p class="text-left">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+      assumenda.
+    </p>
+    <p class="text-right">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+      assumenda.
+    </p>
 
     <!-- Text Decoration -->
+    <p class="underline">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, facilis.
+    </p>
 
     <!-- Decoration Style -->
+    <p class="underline decoration-4 decoration-red-500">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, facilis.
+    </p>
 
     <!-- Decoration Offset -->
+    <p class="underline decoration-4 decoration-blue-500 underline-offset-8">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, facilis.
+    </p>
 
     <!-- Text Transform -->
+    <p class="uppercase">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, facilis.
+    </p>
   </body>
 </html>
 
