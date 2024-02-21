@@ -9,10 +9,10 @@
   </head>
   <body>
     <!-- Container -->
-    <div>
+    <div class="container mx-auto">
       <article>
-        <h3>Article One</h3>
-        <p>
+        <h3 class="text-xl font-bold mb-3">Article One</h3>
+        <p class="text-slate-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Exercitationem laboriosam libero molestiae recusandae accusantium
           voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
@@ -21,12 +21,28 @@
       </article>
 
       <!-- Margin -->
+      <div class="h-12 w-12 m-12 bg-red-500 border-2 border-red-600"></div>
 
       <!-- Padding -->
+      <div class="h-12 w-12 p-12 bg-blue-500 border-2 border-blue-600"></div>
 
       <!-- Space Between X -->
+      <div class="flex flex-row space-x-3 bg-green-500">
+        <div class="">item 1</div>
+        <div class="">item 2</div>
+        <div class="">item 3</div>
+        <div class="">item 4</div>
+        <div class="">item 5</div>
+      </div>
 
       <!-- Space Between Y -->
+      <div class="flex flex-col space-y-3 bg-yellow-500">
+        <div class="">item 1</div>
+        <div class="">item 2</div>
+        <div class="">item 3</div>
+        <div class="">item 4</div>
+        <div class="">item 5</div>
+      </div>
     </div>
   </body>
 </html>
