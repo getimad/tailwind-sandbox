@@ -9,28 +9,81 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-300">
+      <div class="absolute bg-red-700 bottom-0 right-1/2">Child</div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-12 bg-blue-300 border">
+      <div class="absolute top-0 left-0 bg-blue-700">Child</div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-12 bg-blue-300 border">
+      <div class="absolute top-0 right-0 bg-blue-700">Child</div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-12 bg-blue-300 border">
+      <div class="absolute bottom-0 left-0 bg-blue-700">Child</div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-12 bg-blue-300 border">
+      <div class="absolute bottom-0 right-0 bg-blue-700">Child</div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-12 bg-green-300 border">
+      <div class="absolute top-0 inset-x-0 bg-green-700">Child</div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative h-12 bg-green-300 border">
+      <div class="absolute left-0 inset-y-0 bg-green-700">Child</div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-12 bg-green-300 border">
+      <div class="absolute right-0 inset-y-0 bg-green-700">Child</div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-12 bg-green-300 border">
+      <div class="absolute bottom-0 inset-x-0 bg-green-700">Child</div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing<span
+          class="inline font-bold"
+          >a</span
+        >
+        elit. Ullam reiciendis fugiat numquam porro expedita sunt<span
+          class="block font-bold"
+          >a</span
+        >
+        deleniti reprehenderit provident, doloremque maiores sed,<span
+          class="inline-block font-bold"
+          >a</span
+        >
+        dolor quae quidem <span class="hidden font-bold">a</span>eligendi eum
+        dicta maxime voluptas sint?
+      </p>
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative bg-red-300 w-48 h-48">
+      <div class="bg-red-700 w-12 h-12 z-10 top-1/2 left-1/2 absolute"></div>
+      <div class="bg-blue-700 w-4 h-4 z-20 top-1/2 left-1/2 absolute"></div>
+    </div>
 
     <!-- Floats -->
+    <div class="container mt-5">
+      <img class="w-12 h-12 float-left p-2" src="../assets/img/img1.jpg"
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet non quas consequatur dicta adipisci voluptatum vitae alias perspiciatis ex! Suscipit error at nostrum aliquid et ipsam deleniti dolorem consequuntur provident.</p>
+    </div>
   </body>
 </html>
 
